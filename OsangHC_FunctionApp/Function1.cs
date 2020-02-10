@@ -15,7 +15,7 @@ namespace OsangHC_FunctionApp
         [FunctionName("c2dFunctionApp")]
         public static async void Run([ServiceBusTrigger("c2dqueue", Connection = "connectionString")]string myQueueItem, ILogger log)
         {
-            string connectionString = "Connection_String";
+            string connectionString = "IoTHub_Connection_String";
 
             var jsonInput = (JObject)JsonConvert.DeserializeObject(myQueueItem);
             var deviceName=((JValue)jsonInput["DeviceName"]).ToString();
