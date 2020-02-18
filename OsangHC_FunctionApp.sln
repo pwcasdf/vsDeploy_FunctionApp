@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OsangHC_FunctionApp", "OsangHC_FunctionApp\OsangHC_FunctionApp.csproj", "{668572F6-9487-4FAB-BD06-E138554E541C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadBlob", "ReadBlob\ReadBlob.csproj", "{C43720B0-7C4A-4BC2-ACDB-36A82BF6A69F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadBlob", "ReadBlob\ReadBlob.csproj", "{C43720B0-7C4A-4BC2-ACDB-36A82BF6A69F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPass", "DataPass\DataPass.csproj", "{DC8F4853-46DE-45E8-A049-0E42DCE2AF47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C43720B0-7C4A-4BC2-ACDB-36A82BF6A69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C43720B0-7C4A-4BC2-ACDB-36A82BF6A69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C43720B0-7C4A-4BC2-ACDB-36A82BF6A69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8F4853-46DE-45E8-A049-0E42DCE2AF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8F4853-46DE-45E8-A049-0E42DCE2AF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8F4853-46DE-45E8-A049-0E42DCE2AF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8F4853-46DE-45E8-A049-0E42DCE2AF47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
